@@ -1,0 +1,78 @@
+.rizeMenu,
+.togleWrap {
+    background: #efefef;
+    border: 1px solid #efefef;
+    /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.08); */
+}
+
+.rizeMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.rizeMenu > ul,
+.togle {
+    align-items: center;
+    height: 36px;
+}
+
+.rizeMenu > ul {
+    padding: 0 10px;
+    display: flex;
+}
+
+.togleLink {
+    background-color: #e0e0e0;
+    height: 36px;
+}
+
+.rizeMenu a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial;
+    padding: 10px;
+    white-space: nowrap;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+.rizeMenu a:hover {
+    background-color: aliceblue;
+}
+
+.togleItem {
+    position: relative;
+}
+
+.togleWrap {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 26px;
+    display: none;
+}
+
+.togleWrap > li {
+    display: flex;
+}
+
+.togle a {
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
