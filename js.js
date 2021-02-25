@@ -36,7 +36,8 @@ function resize_info() {
         count += li.offsetWidth
 
         if (count > w - wMenuBtn) {
-            li.previousElementSibling.classList.add('togle')
+            // li.previousElementSibling.classList.add('togle') // дополнительно скрывает предыдущий пункт меню
+            li.classList.add('togle')
             li.classList.add('togle')
         }
     })
